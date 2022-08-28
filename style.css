@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+}
+.container{
+    max-width: 1400px;
+    margin-inline: auto;
+    padding-inline: 1rem;
+}
+header{
+    padding: 2rem 0;
+    color: #5f5d55;
+    position: absolute;
+    width: 100%;
+}
+.logo{
+    max-width: 7rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation .list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 5rem;
+}
+.list-item.active{
+    color: #ffffff;
+}
+.navigation .list li a{
+    text-decoration: none;
+    border: #877931 2px solid;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: #877931;
+}
+section{
+    background-color: #2b2922;
+    color: #ffffff;
+    padding-top: 10rem;
+    /* height: 100vh; */
+}
+.justic{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.heading {
+    max-width: 35rem;
+    font-size: 2.8rem;
+}
+.content {
+    font-size: 1.2rem;
+    max-width: 27rem;
+}
+.image{
+    padding: 20%;
+    background-image: url("./assets/pexels-ekaterina-bolovtsova-6077326.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.left,.right {
+    padding: 1rem 2rem;
+}
+.left{
+    background-color: #39372d;
+}
+.left i{
+    color: #a08f36;
+    border: 2px solid #a08f36;
+    border-radius: 50px;
+    padding: 15px 20px;
+    font-size: 1.5rem;
+}
+.right i{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    padding: 15px 20px;
+    font-size: 1.5rem;
+}
+.right{
+    background-color: #a08f36;
+}
